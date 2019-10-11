@@ -125,7 +125,6 @@ class AppContent extends Component {
       <div className="App">
         <Header>
           <img src={PoudlardLogo} className="App-logo" alt="logo" />
-          {/* <h1> x </h1>  */}
           <img src={LambdaLogo} className="App-logo" alt="logo" />
         </Header>
 

@@ -6,11 +6,57 @@
   height: 100px;
 }
 
-.imgBackground {
-  width: 200px;
-  height: 400px;
-  flex: 1;
-  object-fit: cover;
+.button {
+  width: 263px;
+  border-radius:15px;
+  background-color: #F4AC45;
+  color: #ffffff;
+  margin-top: 10px; 
+  margin-bottom: 100px;
+  padding: 18px 31px;
+  text-transform: uppercase;
+  font-weight: 300px;
+  line-height: 24px;
+  font-family: 'Londrina Solid', cursive;
+  border-color: transparent;
+}
+
+
+.Home {
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  opacity: 0.85;
+}
+
+.Home-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.Text1{
+  font-family: 'Londrina Solid', cursive;
+  text-align: center;
+}
+
+.Text2{
+  font-family: 'Libre Baskerville', serif;
+  font-size: 100px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.Main-container {
+  flex: wrap;
+
 }
 
 .App-header {
@@ -36,8 +82,3 @@
   color: gray;
   }
 
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
