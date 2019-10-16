@@ -18,10 +18,8 @@ function Home () {
               <br/> 
               School
               </h2>
-               <Link to="/quiz">
-                 <button class="button">
+               <Link to="/quiz" class="button">
                  FIND YOUR HOUSE
-               </button>
                </Link>
           </div>
         </div>   
