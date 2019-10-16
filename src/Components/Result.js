@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
   function Result(props) {
     return (
       <div className="result">
-        You prefer <strong>{props.quizResult}</strong>!
+        You are <strong>{props.quizResult}</strong>!
       </div>
     );
   }
